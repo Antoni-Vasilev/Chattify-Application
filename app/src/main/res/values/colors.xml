@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FF559A00</color>
+
+    <color name="activity_background">#FFFFFFFF</color>
+
+    <color name="splash_app_name">#FFBBBBBB</color>
+
+    <color name="login_register">#FF888888</color>
+</resources>
