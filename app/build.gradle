@@ -10,8 +10,8 @@ android {
         applicationId "eu.nexanet.chattify"
         minSdk 29
         targetSdk 34
-        versionCode 2
-        versionName "2024.03.13"
+        versionCode 3
+        versionName "2024.03.15"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
