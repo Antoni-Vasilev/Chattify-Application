@@ -6,7 +6,12 @@
 
     <color name="activity_background">#FFFFFFFF</color>
 
+    <!-- SplashActivity -->
     <color name="splash_app_name">#FFBBBBBB</color>
 
+    <!-- LoginActivity -->
     <color name="login_register">#FF888888</color>
+
+    <!-- ForgotPasswordActivity -->
+    <color name="forgot_password_title">#FF000000</color>
 </resources>

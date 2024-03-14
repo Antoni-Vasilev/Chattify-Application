@@ -2,7 +2,7 @@
     <string name="app_name" translatable="false">Chattify</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
-    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_">Forgot password?</string>
     <string name="login">Login</string>
     <string name="please_sign_in_to_continue">Please Sign in to continue.</string>
     <string name="dont_have_account">Don\'t have account?</string>
@@ -13,4 +13,12 @@
     <string name="please_register_to_login">Please register to login.</string>
     <string name="hint_confirm_password">Confirm password</string>
     <string name="hint_full_name">Full name</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="activity_forgot_password_subtitle_1">Enter your email for the verification process. We will send 6 digits code to your email.</string>
+    <string name="con...">Continue</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="activity_forgot_password_subtitle_2">Enter the code that you received on your email.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="activity_forgot_password_subtitle_3">Set the new password for your account so you can login and access all the features.</string>
 </resources>

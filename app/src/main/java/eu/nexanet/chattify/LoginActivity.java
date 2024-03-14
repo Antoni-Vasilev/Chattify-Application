@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class LoginActivity extends AppCompatActivity {
 
-    TextView btnRegister;
+    TextView btnRegister, btnForgotPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,14 +32,21 @@ public class LoginActivity extends AppCompatActivity {
 
     private void init() {
         btnRegister = findViewById(R.id.btnRegister);
+        btnForgotPassword = findViewById(R.id.btnForgotPassword);
     }
 
     private void setup() {
         btnRegister.setOnClickListener(this::btnRegisterAction);
+        btnForgotPassword.setOnClickListener(this::btnForgotPasswordAction);
     }
 
     void btnRegisterAction(View v) {
         Intent intent = new Intent(this, RegisterActivity.class);
         startActivity(intent);
+    }
+
+    void btnForgotPasswordAction(View v) {
+        ForgotPasswordFragment fragment = new ForgotPasswordFragment();
+        fragment.show(getSupportFragmentManager(), "ForgotPassword");
     }
 }
